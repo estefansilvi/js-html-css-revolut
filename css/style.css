@@ -118,7 +118,10 @@ span.title-6:hover
   right: 10%;
 }
 
-.feauture{
+.feauture,
+.plans,
+.about-as,
+.help{
     display: none;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
     position: absolute;
@@ -126,7 +129,7 @@ span.title-6:hover
     left: -90px;
     background: rgb(255, 255, 255);
     border-radius: 3px;
-    padding: 5px 10px 30px 5px;
+    padding: 15px 10px 30px 15px;
 }
 
 ul.feauture li{
