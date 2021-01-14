@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+ /* utility class*/
+ .cursor{
+   cursor: pointer;
+ }
+ .color-grey{
+   color: #cacacb;
+ }
+.list-style-type-none{
+  list-style-type: none;
+}
+.inline-block{
+  display: inline-block;
+}
+ /* end utility class*/
+.mx-15{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.navbar-left, .navbar-right{
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.navbar-left img{
+  height: 60px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navbar-left span.title-1{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(50,50);
+}
+.navbar-left span.title-2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+span.title-1{
+  font-weight: bold;
+}
+span.title-2:hover,
+span.title-3:hover,
+span.title-4:hover,
+span.title-5:hover,
+span.title-6:hover
+{
+  color: #000000;
+}
+
+.navbar-right span.title-3{
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translate(50,50);
+}
+.navbar-right span.title-4{
+  position: absolute;
+  top: 50%;
+  right: 80%;
+}
+.navbar-right span.title-5{
+  position: absolute;
+  top: 50%;
+  right: 60%;
+  transform: translate(50,50);
+}
+.navbar-right span.title-6{
+  position: absolute;
+  top: 50%;
+  right: 40%;
+}
+
+.navbar-right button.button-one{
+  font-size: 15px;
+  padding: 5px 5px;
+  background-color: #ebebeb;
+  border:none;
+  border-radius: 8px;
+  position: absolute;
+  top: 43%;
+  right: 25%;
+}
+.navbar-right button.button-two{
+  font-size: 15px;
+  position: absolute;
+  top: 43%;
+  right: 10%;
+  padding: 5px 5px;
+  color: #ffffff;
+  background-color: #000000;
+  border:none;
+  border-radius: 8px;
+}
+.navbar-right button.button-two:hover{
+  opacity: 0.8;
+}
+
+.navbar-right span ul.feauture{
+  top: 43%;
+  right: 10%;
+}
+
+.feauture{
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    position: absolute;
+    top: 100%;
+    left: -90px;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 5px 10px 30px 5px;
+}
+
+ul.feauture li{
+  padding:15px;
+}
+
+.display-block{
+  display:block;
+}
